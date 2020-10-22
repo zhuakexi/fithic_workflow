@@ -1,0 +1,22 @@
+software:
+  hires: /share/home/ychi/software/hires-utils/hires.py
+  valid2counts: /share/home/ychi/software/fithic/fithic/utils/validPairs2FitHiC-fixedSize.sh
+  fragments: /share/home/ychi/software/fithic/fithic/utils/createFitHiCFragments-fixedsize.py
+  bias: /share/home/ychi/software/fithic/fithic/utils/HiCKRy.py
+reference:
+  chr_len: /share/Data/ychi/genome/GRCh38.chr.len
+library: GM_all45
+inputfile: /share/Data/ychi/dp/DHG08/SI/GM_validPairs/GM_all45.validPairs.gz
+resolution:
+  - 20000
+  - 40000
+  - 80000
+  - 160000
+  - 320000
+  - 640000
+dirs:
+  bias: /share/Data/ychi/dp/DHG08/SI/bias
+  fragments: /share/Data/ychi/dp/DHG08/SI/fragments
+  counts: /share/Data/ychi/dp/DHG08/SI/counts
+  results: /share/Data/ychi/dp/DHG08/SI/results
+  logs: /share/Data/ychi/dp/DHG08/SI/logs
